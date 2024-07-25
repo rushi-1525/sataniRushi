@@ -1,0 +1,9 @@
+.main{ width: 40%; height: 80vh; margin: auto;display: grid;justify-content: center; align-items: center; background-color: #cfe1b9;  }
+body{ background-color: #E9F5DB; }
+.ch{height: 47vh;margin: auto; background-color: #87986a;text-align: center;display: block;align-items: center; }
+.in{ width: 350px; height: 40px; background-color: rgba(0, 0, 0, 0.432); color: aliceblue; border: none; margin: auto; text-align: center;font-size: 50px;}
+
+button{ text-align: center;width: 70px;height: 70px; border-radius: 50%; border: 2px dotted green;font-size: 50px;display: inline;background-color: #344a115d;margin-top: 12%;}
+.ch :nth-last-child(1){     margin-top: 24%;
+    width: 353px; }
+

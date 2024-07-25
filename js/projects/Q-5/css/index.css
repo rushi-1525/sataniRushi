@@ -1,0 +1,6 @@
+.main{ width: 350px;height: 450px;border: 1px solid silver;margin: auto; margin-top: 1%;text-align: center;position: relative;}
+i{ margin-top: 10%; }
+input{ width: 250px;height: 30px;border-radius: 3px;border: 1px solid silver;font-size: 10px;background-color: rgba(0, 255, 255, 0);}
+button{ width: 250px;height: 28px;border-radius: 8px;border: none;background-color: deepskyblue; }
+.pera{ position: absolute;top: 27%;left: 16%;font-size: 14px;color:rgba(0, 0, 0, 0.482); z-index: -1;}
+.pera1{ position: absolute;top: 38%;left: 16%;font-size: 14px;z-index: -1;color: rgba(0, 0, 0, 0.482);}

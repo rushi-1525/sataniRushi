@@ -1,0 +1,8 @@
+.main{ width: 350px;height: 500px;border: 2px solid red;margin: auto;margin-top: 20px; text-align: center;}
+input{ width: 250px;height: 50px; margin-top: 70px;}
+.img1{ height: 50px;width: 50px;position: absolute;top: 13%;left: 42%; }
+.img2{ height: 50px;width: 50px;position: absolute;top: 33%;left: 42%; }
+.img3{ height: 50px;width: 50px;position: absolute;top: 55%;left: 42%; }
+
+.s1{ display: none; }
+.s3{ display: block; }
