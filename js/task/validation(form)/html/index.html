@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css link -->
+     <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+     <div class="main-form">
+     <form action="">
+
+        <div class="all-input">
+      
+        <input onblur="formvalidat(this,sp1,'username is reqired')" placeholder="Enter your Name :"  type="name" name="Username" id="">
+        <span id="sp1"></span> 
+        <br><br>
+        
+      
+        <input onblur="formvalidat(this,sp2,'mobile number is reqired')" placeholder="Enter your No :" type="tel" name="Mobileno" id=""> 
+        <span id="sp2"></span>
+         <br><br>
+
+
+       
+        <input onblur="formvalidat(this,sp3,'password is reqired')" placeholder="Enter your password :" type="password" name="Userpass" id="password">
+        <span id="sp3"></span>
+        <br><br>
+     
+       
+         
+          <input onblur="formvalidat(this,sp4,'Confirm password reqired')" placeholder="Conform Password" type="password" name="" id="Confirmpass">  
+          <span id="sp4"></span> 
+          <br><br>
+              
+
+        
+        <input onblur="formvalidat(this,sp5,'email is reqired')" placeholder="Enter your E-mail :" type="email" name="email" id="">
+        <span id="sp5"></span> 
+        <br><br>
+
+           
+        <!-- <script src="index.js"></script> -->
+    </div>
+     </form>
+    </div>
+
+ 
+     <script src="/js/index.js"></script>
+
+
+</body>
+</html>

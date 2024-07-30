@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">validation</h1>
+    <hr>
+    <form action="" style="text-align: center; margin-top: 10%;">
+
+
+        <label for="">User Name : -</label>
+        <input type="text" onblur="validtion(this,'error','name')">
+        <span id="error" ></span><br><br>
+
+
+        <label for="">User E-mail : -</label>
+        <input type="email"  onblur="validtion(this,'error2','e-mail')">
+        <span id="error2"></span><br><br>
+
+
+        <label for="">User MObilNo. : -</label>
+        <input type="tel"  onblur="validtion(this,'error3','no')">
+        <span id="error3"></span><br><br>
+
+
+        <label for="">User Password : -</label>
+        <input type="password"  onblur="validtion(this,'error4','pass')">
+        <span id="error4"></span><br><br>
+    </form>
+
+    <script src="/js/index.js"></script>
+</body>
+</html>

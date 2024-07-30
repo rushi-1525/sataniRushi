@@ -1,0 +1,5 @@
+*{ margin: 0;padding: 0;box-sizing: border-box;}
+body{background-color: black;}
+input,select,option{ height: 40px; background-color: rgb(29, 28, 35);color: aliceblue;border: none;width: 300px;text-align: center;}
+form{ text-align: center;border: rgb(69, 95, 107) 2px solid;width: 400px;margin: auto;margin-top: 10%; }
+label{ color: aliceblue;font-size: 20px; }

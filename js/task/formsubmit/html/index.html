@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+    <div>
+        <form action="">
+            <label for="">User Name : -</label><br>
+            <input type="text" placeholder="Enter youer Name" onblur="on(this,s1,'please enter valid Name'),crrect()" ><br>
+            <span id="s1"></span>
+             <br><br>
+
+            <label for="">User E-mail : -</label><br>
+            <input type="email" placeholder="Enter youer E-mail" onblur="on(this,s2,'please enter valid Email')">
+            <br><span id="s2"></span>
+             <br><br>
+
+            <label for="">User Number : -</label><br>
+            <input type="tel" placeholder="Enter youer Number" onblur="on(this,s3,'please enter valid Number')" >  <br><span id="s3"></span>
+            <br><br>
+
+<select name="" id="">
+    <option value="">Mubai</option>
+    <option value="">Amd</option>
+    <option value="">Sur</option>
+<span id="select"></span>
+</select><br><br>
+
+            <label for="">User Password : -</label><br>
+            <input type="password" placeholder="Enter youer Password" onblur="on(this,s4,'please enter valid Password')"> 
+            <br><span id="s4"></span><br><br>
+
+            <label for="">User Conferm Password : -</label><br>
+            <input type="password" placeholder="Enter youer Password" onblur="on(this,s5,'please enter valid Password')"> 
+            <br><span id="s5"></span><br><br>
+        </form>
+    </div>
+
+    <script src="/js/index.js"></script>
+</body>
+</html>
