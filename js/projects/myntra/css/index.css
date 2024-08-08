@@ -1,0 +1,34 @@
+*{ margin: 0;padding: 0;box-sizing: border-box; }
+ul{ display: flex;gap: 20px; }
+body{ background-color: #8235e151; }
+.text-nav{ color: #cb05c1 !important;font-weight: 600; }
+/* .slider{ height: 90vh; width: 100%;} */
+.img-slider{ object-fit: cover;height: 100vh;width: 100%;object-fit: cover !important;}
+.carousel-control-prev-icon,.carousel-control-next-icon{ background-color: #cb05c1d3;border-radius: 50%; width: 50px;height: 50px;}
+.cards-categrory{ width: 300px;height: 400px;background-color: rgba(0, 0, 0, 0.14);margin: auto;text-align: center;position: relative;overflow: hidden; cursor: pointer;}
+.img-ca{  width: 300px;height: 400px;  position: absolute;top: 0;left: 0;  z-index: -1; }
+.category-div{ background-color: rgba(240, 248, 255, 0.712);margin-top: 233px; }
+a{ text-decoration: none; }
+li{ list-style-type: none;}
+.prodect{ font-size: 30px;font-weight: 700; width: 500px;height: 100px;margin: auto; display: flex; gap: 70px;margin-top: 20p; }
+.card-prodect{ width: 300px;height: 400px; display: flex;flex-wrap: wrap;background-color: rgba(0, 0, 0, 0.14);position: relative;overflow: hidden; cursor: pointer;}
+.text-colection{  color: #cb05c1 !important;font-weight: 700;display: flex; }
+
+.img-col{  width: 300px;height: 400px;  position: absolute;top: 0;left: 0;  z-index: -1;  }
+.colection-div1{ background-color: rgba(0, 0, 0, 0.518);width: 100%;margin-top: 300px;text-align: center;padding-top: 20px;color: #ffffff; opacity: 0;}
+.btn-cole{ width: 200px;background-color: #cb05c183;color: aliceblue;font-weight: 600; }
+.btn-cole:hover{ background-color: #cb05c1;color: aliceblue; }
+.card-prodect:hover .colection-div1{ opacity: 1;transition: all 1.5s;margin-top: 250px; }
+.span{ height: 20px;width: 20px; background-color: #cb05c173; border-radius: 50%;text-align: center;font-size: 15px;font-weight: 700;margin-top: -15px;margin-left: -14px;color: aliceblue;cursor: pointer;}
+
+
+
+.section-2{ display: none; }
+
+
+input,.total{ width: 200px;font-size: 30px;height: 60px; border: none;background-color: #cb05c1;color: #ffffff;padding: 10px;margin-left: 500px;display: none;}
+.total,.btn-total{ width: 200px;font-size: 30px;height: 60px; border: none;background-color: #cb05c1;color: #ffffff;padding: 10px;margin-left: 500px; display: block;}
+
+
+
+

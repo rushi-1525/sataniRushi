@@ -4,7 +4,10 @@ let img3=document.querySelector(".img3");
 let img4=document.querySelector(".img4");
 let arro1=document.querySelector(".arro1");
 let arro2=document.querySelector(".arro2");
-let btn=document.querySelectorAll("button")
+let but1=document.querySelector(".btn");
+let but2=document.querySelector(".btn2");
+
+
 
 
 
@@ -28,10 +31,16 @@ setTimeout(() => {
     img3.style.width="10%"
 }, 7000);
 
+
+
 setTimeout(() => {
-    btn.style.display="block"
-    img4.style.width="10%"
+//    but1.style.display="flex";
+//    but2.style.display="flex";
+
+    img4.style.width="10%";
 }, 9000);
+
+
 let d=0;
 function a() {
     if (d==0) {
