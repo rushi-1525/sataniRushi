@@ -2,7 +2,7 @@
 ul{ display: flex;gap: 20px; }
 body{ background-color: #8235e151; }
 .text-nav{ color: #cb05c1 !important;font-weight: 600; }
-/* .slider{ height: 90vh; width: 100%;} */
+
 .img-slider{ object-fit: cover;height: 100vh;width: 100%;object-fit: cover !important;}
 .carousel-control-prev-icon,.carousel-control-next-icon{ background-color: #cb05c1d3;border-radius: 50%; width: 50px;height: 50px;}
 .cards-categrory{ width: 300px;height: 400px;background-color: rgba(0, 0, 0, 0.14);margin: auto;text-align: center;position: relative;overflow: hidden; cursor: pointer;}
@@ -32,3 +32,7 @@ input,.total{ width: 200px;font-size: 30px;height: 60px; border: none;background
 
 
 
+/* cart css */
+.item-ditels{ width: 80%;border: #cb05c1 solid 2px; margin: auto; display: flex;justify-content: space-evenly;align-items: center;text-align: center; padding: 10px;margin-top: 10px;}
+.items-img{ width: 200px;height: 200px; }
+.item-name{ color: #cb05c1;font-weight: 700; font-size: 25px;}

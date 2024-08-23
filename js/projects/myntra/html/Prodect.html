@@ -36,8 +36,8 @@
                 </ul>
                 <li class="nav-item ">
                  
-                    <button class="border-0 btn m-auto" onclick="button1()"><i class="fa-solid fa-cart-shopping fa-2xl" style="color: #cb05c1;"></i>
-                    </button>
+                  <a href="../html/cart.html"> <button class="border-0 btn m-auto" onclick="inCart()"> <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #cb05c1;"></i>
+                    </button></a> 
                   
                 </li>
                 <span class="span"></span>
@@ -70,7 +70,7 @@
           <div class="colection-div1">
             <h6>White Premium Shirt</h6>
             <h4>16000 <sub>Rs</sub></h4>
-            <button class="btn btn-cole"  onclick="cart('block',cart1,inp1,'16000')">Add Cart</button>
+            <button class="btn btn-cole"  onclick="cart('White Premium Shirt',16000,'../img/ct-3.avif')">Add Cart</button>
           </div>
         </div>
 
@@ -80,7 +80,7 @@
           <div class="colection-div1">
             <h6>White Premium Shirt</h6>
             <h4>1000 <sub>Rs</sub></h4>
-            <button class="btn btn-cole"  onclick="cart('block',cart2,inp2,'1000')">Add Cart</button>
+            <button class="btn btn-cole"  onclick="cart('White Premium Shirt',1000,'../img/ct-4.webp')">Add Cart</button>
           </div>
         </div>
 
@@ -90,7 +90,7 @@
           <div class="colection-div1">
             <h6>Bleck Premium Shirt</h6>
             <h4>6000 <sub>Rs</sub></h4>
-            <button class="btn btn-cole"  onclick="cart('block',cart3,inp3,'6000')">Add Cart</button>
+            <button class="btn btn-cole"  onclick="cart('Bleck Premium Shirt',6000,'../img/b-shert.webp')">Add Cart</button>
           </div>
         </div>
 
@@ -100,7 +100,7 @@
           <div class="colection-div1">
             <h6> Premium Shirt</h6>
             <h4>6000 <sub>Rs</sub></h4>
-            <button class="btn btn-cole"  onclick="cart('block',cart4,inp4,'16000')">Add Cart</button>
+            <button class="btn btn-cole"  onclick="cart(' Premium Shirt',6000,'../img/b-shert2.jpeg')">Add Cart</button>
           </div>
         </div>
 
@@ -110,7 +110,7 @@
           <div class="colection-div1">
             <h6>White Premium Shirt</h6>
             <h4>8000 <sub>Rs</sub></h4>
-            <button class="btn btn-cole"  onclick="cart('block',cart5,inp5,'8000')">Add Cart</button>
+            <button class="btn btn-cole"  onclick="cart('White Premium Shirt',8000,'../img/w-shirt.jpg')">Add Cart</button>
           </div>
         </div>
       
@@ -133,7 +133,7 @@
            <div class="colection-div1">
              <h6>Premium Shirt</h6>
              <h4>16000 <sub>Rs</sub></h4>
-             <button class="btn btn-cole"  onclick="cart('block',cart6,inp6,'16000')">Add Cart</button>
+             <button class="btn btn-cole"  onclick="cart('Premium Shirt',16000,'../img/ct-1.jpg')">Add Cart</button>
            </div>
          </div>
  
@@ -143,7 +143,7 @@
            <div class="colection-div1">
              <h6>Green Premium Shirt</h6>
              <h4>1000 <sub>Rs</sub></h4>
-             <button class="btn btn-cole"  onclick="cart('block',cart7,inp7,'1000')">Add Cart</button>
+             <button class="btn btn-cole"  onclick="cart('Green Premium Shirt',1000,'../img/ct-2.jpg')">Add Cart</button>
            </div>
          </div>
  
@@ -153,7 +153,7 @@
            <div class="colection-div1">
              <h6>Premium T-shirt</h6>
              <h4>6000 <sub>Rs</sub></h4>
-             <button class="btn btn-cole"  onclick="cart('block',cart8,inp8,'6000')">Add Cart</button>
+             <button class="btn btn-cole"  onclick="cart('Premium T-shirt',6000,'../img/ct-2.webp')">Add Cart</button>
            </div>
          </div>
  
@@ -163,7 +163,7 @@
            <div class="colection-div1">
              <h6> Premium Kurti</h6>
              <h4>6000 <sub>Rs</sub></h4>
-             <button class="btn btn-cole"  onclick="cart('block',cart9,inp9,'6000')">Add Cart</button>
+             <button class="btn btn-cole"  onclick="cart('Premium Kurti',6000,'../img/ct-5.jpg')">Add Cart</button>
            </div>
          </div>
  
@@ -173,7 +173,7 @@
            <div class="colection-div1">
              <h6>White Premium Combo</h6>
              <h4>8000 <sub>Rs</sub></h4>
-             <button class="btn btn-cole"  onclick="cart('block',cart10,inp10,'8000')">Add Cart</button>
+             <button class="btn btn-cole"  onclick="cart('White Premium Combo',8000,'../img/ct5.webp')">Add Cart</button>
            </div>
          </div>
        
@@ -183,218 +183,8 @@
        </div>
      </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-     <section>
-
-      <section class="section-2">
-        <div class="d-flex">
-
-            <div>
-
-              <div class="card mb-3 cart-1" style="max-width: 540px; display: none;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="../img/ct-3.avif" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Bleck Premium Shirt</h5>
-                      <h4>16000 <sub>Rs</sub></h4>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-              <div class="card mb-3 cart-2"  style="max-width: 540px;display: none;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="../img/ct-4.webp" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">White Premium Shirt</h5>
-                      <h4>1000 <sub>Rs</sub></h4>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-
-              <div class="card mb-3 cart-3" style="max-width: 540px; display: none;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="../img/b-shert.webp" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Bleck Premium Shirt</h5>
-                      <h4>6000 <sub>Rs</sub></h4>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="card mb-3 caet-4"  style="max-width: 540px;  display: none;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="../img/b-shert2.jpeg" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title"> Premium Shirt</h5>
-                      <h4>6000 <sub>Rs</sub></h4>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-
-              <div class="card mb-3 caet-5"  style="max-width: 540px;  display: none;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="../img/w-shirt.jpg" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">White Premium Shirt</h5>
-                      <h4>8000 <sub>Rs</sub></h4>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-
-              <div class="card mb-3 caet-6"  style="max-width: 540px;  display: none;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="../img/ct-1.jpg" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Premium Shirt</h5>
-                      <h4>16000 <sub>Rs</sub></h4>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-
-
-              <div class="card mb-3 caet-7" style="max-width: 540px;  display: none;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="../img/ct-2.jpg" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Green Premium Shirt</h5>
-                      <h4>1000 <sub>Rs</sub></h4>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-
-
-              <div class="card mb-3 caet-8" style="max-width: 540px; display: none;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="../img/ct-2.webp" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Premium T-shirt</h5>
-                      <h4>6000 <sub>Rs</sub></h4>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-
-
-              <div class="card mb-3 caet-9" style="max-width: 540px; display: none;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="../img/ct-5.jpg" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Premium Kurti</h5>
-                      <h4>6000 <sub>Rs</sub></h4>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-
-
-
-              <div class="card mb-3 caet-10"  style="max-width: 540px;  display: none;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="../img/ct5.webp" class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">White Premium Combo</h5>
-                      <h4>8000 <sub>Rs</sub></h4>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-        </div>
-
-<div>
-  <input type="text" class="inp2" value="0"><br><br>
-  <input type="text" class="inp3" value="0"><br><br>
-  <input type="text" class="inp4" value="0"><br><br>
-  <input type="text" class="inp1" value="0"><br><br>
-  <input type="text" class="inp5" value="0"><br><br>
-  <input type="text" class="inp6" value="0"><br><br>
-  <input type="text" class="inp7" value="0"><br><br>
-  <input type="text" class="inp8" value="0"><br><br>
-  <input type="text" class="inp9" value="0"><br><br>
-  <input type="text" class="inp10" value="0"><br><br>
-  <div class="total mt-5"></div>
-</div>
-
-        <div>
-
-        </div>
-    </div>
-    </section>
-     </section>
-
+     
+    
 </main>
 
 
