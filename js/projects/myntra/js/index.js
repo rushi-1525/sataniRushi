@@ -37,4 +37,4 @@ none.style.display="block";
 
 
 
-    // localStorage.removeItem("cart")
+    localStorage.removeItem("cart")
