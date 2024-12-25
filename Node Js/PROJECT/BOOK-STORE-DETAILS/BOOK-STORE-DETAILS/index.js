@@ -8,8 +8,6 @@ app.set("view engine", "ejs");
 
 app.use(express.urlencoded());
 
-
-
 app.get("/", async (req, res) => {
 
     const bookData = await UserModel.find({});
