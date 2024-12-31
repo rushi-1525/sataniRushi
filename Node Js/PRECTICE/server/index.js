@@ -1,7 +1,7 @@
 const express=require("express");
 const connection =require("./cofig/db");
-// const path=require("path")
-// const UserModel = require("./model/userModel");
+const path=require("path")
+const UserModel = require("./model/userModel");
 
 
 
@@ -9,20 +9,20 @@ const app=express();
 const port=9000;
 
 app.set("view engine", "ejs");
-// app.use(express.urlencoded());
+app.use(express.urlencoded());
 
 app.get("/", async (req, res) => {
 
-  // const userData = await UserModel.find({});
+  const userData = await UserModel.find({});
   res.render();
 });
-// app.post("/bookadd", async(req,res)=>{
+app.post("/bookadd", async(req,res)=>{
 
-//   await UserModel.create(req.body);
+  await UserModel.create(req.body);
 
-//    res.redirect("back");
+   res.redirect("back");
 
-// })
+})
 
 app.listen(port,(error)=>{
     if(error){
