@@ -8,6 +8,7 @@ const App = () => {
   useEffect(()=>{
     localStorage.setItem('counter',JSON.stringify(count))
   })
+  
   return (
     <div className='content'>
       <div>{count}</div>
