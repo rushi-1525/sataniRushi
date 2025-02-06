@@ -1,0 +1,18 @@
+[
+    {
+      "bidNumber": "122345678123",
+      "startDate": "14/02/2024",
+      "fromCity": "Gurgaon",
+      "toCity": "Mumbai",
+      "vehicleType": "Truck, 20 ft",
+      "materialWeight": 4000
+    },
+    {
+      "bidNumber": "5215001161264",
+      "startDate": "14/02/2024",
+      "fromCity": "Gurgaon",
+      "toCity": "Mumbai",
+      "vehicleType": "Truck, 20 ft",
+      "materialWeight": 4000
+    }
+  ]
