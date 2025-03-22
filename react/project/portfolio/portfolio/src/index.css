@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: aliceblue;
+}
+body{
+  background-color: black;
+ 
+}
+
+section{
+  position: absolute;
+  left: 400px;
+}
+.navbar{
+  width: 400px;
+  border: 2px solid red;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+ position: fixed;
+ top: 0;
+ left: 0;
+ z-index: 200;
+}
+
+
+
+.navbar img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}

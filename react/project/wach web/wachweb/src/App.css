@@ -14,4 +14,5 @@ nav{ width: 100%;display: flex;justify-content: space-between; border-bottom: so
 
 
 /* prodect section */
-.prodect-cover{ display: flex;flex-wrap: wrap;}
+.prodect-cover{ display: flex;flex-wrap: wrap;text-align: center;align-items: center;justify-content: center;}
+.prodect-cover h1{ font-size: 50px;color: red;font-weight: 700; }

@@ -5,9 +5,10 @@ const Prodect = () => {
     <>
     <section>
         <div className='prodect-cover contener'>
+          <h1>Prodect</h1>
 <div className='prodect-card'>
-<img src="" alt="" />
-<h3></h3>
+
+
 
 </div>
         </div>
